@@ -1,0 +1,149 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu Sway desktop
+Task-Extended-Description: This task provides the Ubuntu Sway environment.
+Task-Key: ubuntusway-desktop
+Task-Name: ubuntusway-desktop
+Task-Seeds: desktop-common
+Task-Metapackage: ubuntusway-desktop
+
+== Metapackage ==
+ * ubuntusway-desktop
+
+= Ubuntu Sway Packages =
+ * breeze-cursor-theme
+ * ubuntusway-environment
+ * yaru-theme-gtk
+ * yaru-theme-icon
+
+= Display manager =
+ * sddm
+
+= Fonts =
+ * (fonts-arphic-ukai)
+ * (fonts-arphic-uming)
+ * (fonts-dejavu-core)
+ * (fonts-kacst-one)
+ * (fonts-noto-cjk)
+ * (fonts-sil-padauk)
+ * fonts-font-awesome
+ * fonts-ubuntu
+
+= Common =
+ * acpi-support
+ * alsa-base
+ * alsa-utils
+ * bc
+ * bluez
+ * bluez-cups
+ * cups
+ * cups-bsd
+ * cups-client
+ * cups-filters
+ * ca-certificates
+ * doc-base
+ * eject
+ * ghostscript-x
+ * gvfs-fuse
+ * htop
+ * (hunspell-de-at-frami)
+ * (hunspell-de-ch-frami)
+ * (hunspell-de-de-frami)
+ * hunspell-en-au
+ * hunspell-en-ca
+ * hunspell-en-gb
+ * hunspell-en-us
+ * hunspell-en-za
+ * (hunspell-es)
+ * (hunspell-fr)
+ * (hunspell-it)
+ * (hunspell-pt-br)
+ * (hunspell-pt-pt)
+ * (hunspell-ru)
+ * ibus
+ * ibus-gtk
+ * ibus-gtk3
+ * (ibus-hangul)
+ * (ibus-libpinyin)
+ * (ibus-m17n)
+ * (ibus-mozc)
+ * ibus-table
+ * (ibus-table-cangjie)
+ * (ibus-table-quick-classic)
+ * (ibus-table-wubi)
+ * (ibus-unikey)
+ * (snap:firefox)
+ * (kerneloops)
+ * (language-pack-de)
+ * (language-pack-es)
+ * (language-pack-fr)
+ * (language-pack-pt)
+ * (language-pack-ru)
+ * (laptop-detect)
+ * (libnss-mdns)
+ * (nano)
+ * (neofetch)
+ * network-manager
+ * network-manager-gnome
+ * printer-driver-brlaser
+ * printer-driver-c2esp
+ * printer-driver-foo2zjs
+ * printer-driver-m2300w
+ * printer-driver-min12xxw
+ * printer-driver-pnm2ppa
+ * printer-driver-ptouch
+ * printer-driver-pxljr
+ * printer-driver-sag-gdi
+ * printer-driver-splix
+ * pulseaudio
+ * pulseaudio-module-bluetooth
+ * python3
+ * rfkill
+ * (snapd)
+ * sudo
+ * tzdata
+ * ubuntu-advantage-tools
+ * ubuntu-drivers-common
+ * ubuntu-keyring
+ * ubuntu-minimal
+ * unzip
+ * wireless-tools
+ * whoopsie
+ * wpa-supplicant
+ * xdg-data
+ * xdg-user-dirs
+ * xdg-utils
+ * xkb
+ * xorg
+ * xz-utils
+ * zip
+
+= Apps =
+ * (flameshot)
+ * friendly-recovery
+ * (gimp)
+ * (mpv)
+ * (simple-scan)
+ * (synaptic)
+ * (thunderbird)
+ * (update-notifier)
+ * (wdisplays)
+ * software-properties-gtk
+
+= LibreOffice Suite =
+ * (libreoffice)
+ * (libreoffice-calc)
+ * (libreoffice-draw)
+ * (libreoffice-gtk)
+ * (libreoffice-gtk3)
+ * (libreoffice-impress)
+ * (libreoffice-writer)
+ * (libreoffice-style-yaru)
+
+= Language =
+ * (wamerican)
+ * (wdeutch)
+ * (wfrench)
+ * (wgerman)
+ * (wportuguese)
+ * (wrussian)
