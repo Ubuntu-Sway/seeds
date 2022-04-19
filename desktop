@@ -12,6 +12,7 @@ Task-Metapackage: ubuntusway-desktop
 
 = Ubuntu Sway Packages =
  * breeze-cursor-theme
+ * ubuntusway-default-settings
  * ubuntusway-environment
  * yaru-theme-gtk
  * yaru-theme-icon
@@ -24,82 +25,71 @@ Task-Metapackage: ubuntusway-desktop
  * (fonts-arphic-uming)
  * (fonts-dejavu-core)
  * (fonts-kacst-one)
- * (fonts-noto-cjk)
  * (fonts-sil-padauk)
  * fonts-font-awesome
  * fonts-ubuntu
 
-= Common =
- * acpi-support
- * alsa-base
- * alsa-utils
- * bc
- * bluez
- * bluez-cups
+= Network =
+ * avahi-daemon
+ * ca-certificates
+ * libnss-mdns
+ * mobile-broadband-provider-info
+ * modemmanager
+ * rfkill
+ * usb-modeswitch
+ * wireless-tools
+ * wpasupplicant
+ * wvdial
+ 
+== Printing ==
  * cups
  * cups-bsd
  * cups-client
  * cups-filters
- * ca-certificates
- * doc-base
- * eject
+ * foomatic-db-compressed-ppds
  * ghostscript-x
- * gvfs-fuse
- * htop
- * (hunspell-de-at-frami)
- * (hunspell-de-ch-frami)
- * (hunspell-de-de-frami)
- * hunspell-en-au
- * hunspell-en-ca
- * hunspell-en-gb
- * hunspell-en-us
- * hunspell-en-za
- * (hunspell-es)
- * (hunspell-fr)
- * (hunspell-it)
- * (hunspell-pt-br)
- * (hunspell-pt-pt)
- * (hunspell-ru)
- * ibus
- * ibus-gtk
- * ibus-gtk3
- * (ibus-hangul)
- * (ibus-libpinyin)
- * (ibus-m17n)
- * (ibus-mozc)
- * ibus-table
- * (ibus-table-cangjie)
- * (ibus-table-quick-classic)
- * (ibus-table-wubi)
- * (ibus-unikey)
- * (snap:firefox)
- * (kerneloops)
- * (language-pack-de)
- * (language-pack-es)
- * (language-pack-fr)
- * (language-pack-pt)
- * (language-pack-ru)
- * (laptop-detect)
- * (libnss-mdns)
- * (nano)
- * (neofetch)
- * network-manager
- * network-manager-gnome
- * printer-driver-brlaser
- * printer-driver-c2esp
- * printer-driver-foo2zjs
- * printer-driver-m2300w
- * printer-driver-min12xxw
+ * hplip
+ * openprinting-ppds
  * printer-driver-pnm2ppa
- * printer-driver-ptouch
- * printer-driver-pxljr
- * printer-driver-sag-gdi
+ * printer-driver-min12xxw
+ * printer-driver-foo2zjs
  * printer-driver-splix
+ * printer-driver-pxljr
+ * printer-driver-c2esp
+ * printer-driver-ptouch
+ * printer-driver-sag-gdi
+ * printer-driver-brlaser
+ * printer-driver-gutenprint
+
+== Snaps ==
+
+ * snap:firefox
+ * snap:gnome-3-38-2004 # needed for firefox
+ * snap:gtk-common-themes # needed for firefox
+ 
+== Sound ==
  * pulseaudio
  * pulseaudio-module-bluetooth
- * python3
- * rfkill
- * (snapd)
+ 
+= Common low level components =
+ * acpi-support
+ * anacron
+ * fwupd
+ * fwupd-signed
+ * fonts-noto-cjk
+ * gvfs-fuse
+ * gvfs-backends
+ * htop
+ * inputattach
+ * kerneloops-daemon
+ * laptop-detect
+ * libpam-systemd
+ * libsasl2-modules
+ * neofetch
+ * nano
+ * network-manager
+ * network-manager-gnome
+ * policykit-desktop-privileges
  * sudo
  * tzdata
  * ubuntu-advantage-tools
@@ -107,43 +97,30 @@ Task-Metapackage: ubuntusway-desktop
  * ubuntu-keyring
  * ubuntu-minimal
  * unzip
- * wireless-tools
- * whoopsie
- * wpa-supplicant
- * xdg-data
- * xdg-user-dirs
- * xdg-utils
- * xkb
- * xorg
+ * xkb-data
  * xz-utils
  * zip
+ 
+== Office ==
+ * (libreoffice-calc)
+ * (libreoffice-impress)
+ * (libreoffice-writer)
+ * (libreoffice-gtk3)
+ * (libreoffice-style-yaru)
+ * !libreoffice-gnome
 
 = Apps =
  * (flameshot)
  * friendly-recovery
  * (gimp)
+ * (imv)
  * (mpv)
  * (simple-scan)
  * (synaptic)
+ * (suckless-tools)
  * (thunderbird)
  * (update-notifier)
  * (wdisplays)
+ * (zathura)
+ * (zathura-pdf-poppler)
  * software-properties-gtk
-
-= LibreOffice Suite =
- * (libreoffice)
- * (libreoffice-calc)
- * (libreoffice-draw)
- * (libreoffice-gtk)
- * (libreoffice-gtk3)
- * (libreoffice-impress)
- * (libreoffice-writer)
- * (libreoffice-style-yaru)
-
-= Language =
- * (wamerican)
- * (wdeutch)
- * (wfrench)
- * (wgerman)
- * (wportuguese)
- * (wrussian)
