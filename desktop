@@ -18,6 +18,8 @@ Task-Seeds: desktop-common
  * (thunderbird)
  * (update-notifier)
  * (wdisplays)
+ * (waypipe)
+ * (wayvnc)
  * (zathura)
  * (zathura-pdf-poppler)
  * software-properties-gtk
@@ -36,6 +38,7 @@ Task-Seeds: desktop-common
  * laptop-detect
  * libpam-systemd
  * libsasl2-modules
+ * man-db
  * nano
  * network-manager
  * network-manager-gnome
@@ -52,11 +55,10 @@ Task-Seeds: desktop-common
 
  * sddm
  
-== Firefox ==
+== Web browser ==
 
- * snap:firefox
- * snap:gnome-3-38-2004 # needed for firefox
- * snap:gtk-common-themes # needed for firefox
+ * falkon
+ * qutebrowser
  
 == Fonts ==
 
@@ -79,7 +81,10 @@ Task-Seeds: desktop-common
  * (thermald) [amd64]
  * (inxi)
  * (htop)
+ * (mesa-utils)
+ * (mesa-utils-extra)
  * (neofetch)
+ * (vulkan-tools)
  * (wev)
  
 == Multimedia ==
@@ -136,6 +141,7 @@ Task-Seeds: desktop-common
  * printer-driver-gutenprint
  
 == Theming ==
+
  * breeze-cursor-theme
  * qt5-style-kvantum
  * yaru-theme-gtk
