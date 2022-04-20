@@ -5,31 +5,95 @@ Task-Extended-Description: This task provides the Ubuntu Sway environment.
 Task-Key: ubuntusway-desktop
 Task-Name: ubuntusway-desktop
 Task-Seeds: desktop-common
-Task-Metapackage: ubuntusway-desktop
 
-== Metapackage ==
- * ubuntusway-desktop
+== Apps ==
 
-= Ubuntu Sway Packages =
- * breeze-cursor-theme
- * ubuntusway-default-settings
- * ubuntusway-environment
- * yaru-theme-gtk
- * yaru-theme-icon
+ * (flameshot)
+ * friendly-recovery
+ * (gimp)
+ * (imv)
+ * (simple-scan)
+ * (synaptic)
+ * (suckless-tools)
+ * (thunderbird)
+ * (update-notifier)
+ * (wdisplays)
+ * (zathura)
+ * (zathura-pdf-poppler)
+ * software-properties-gtk
+ 
+== Common low level components ==
 
-= Display manager =
+ * acpi-support
+ * anacron
+ * fwupd
+ * fwupd-signed
+ * fonts-noto-cjk
+ * gvfs-fuse
+ * gvfs-backends
+ * inputattach
+ * kerneloops-daemon
+ * laptop-detect
+ * libpam-systemd
+ * libsasl2-modules
+ * nano
+ * network-manager
+ * network-manager-gnome
+ * policykit-desktop-privileges
+ * sudo
+ * tzdata
+ * ubuntu-drivers-common
+ * unzip
+ * xkb-data
+ * xz-utils
+ * zip
+ 
+== Display manager ==
+
  * sddm
+ 
+== Firefox ==
 
-= Fonts =
+ * snap:firefox
+ * snap:gnome-3-38-2004 # needed for firefox
+ * snap:gtk-common-themes # needed for firefox
+ 
+== Fonts ==
+
  * (fonts-arphic-ukai)
  * (fonts-arphic-uming)
  * (fonts-dejavu-core)
  * (fonts-kacst-one)
+ * (fonts-liberation2)
+ * (fonts-noto-color-emoji)
+ * (fonts-opensymbol)
  * (fonts-sil-padauk)
  * fonts-font-awesome
  * fonts-ubuntu
+ 
+== Hardware ==
 
-= Network =
+ * (drm-info)
+ * (gamemode) [amd64]
+ * (tlp) [amd64]
+ * (thermald) [amd64]
+ * (inxi)
+ * (htop)
+ * (neofetch)
+ * (wev)
+ 
+== Multimedia ==
+
+ * gstreamer1.0-alsa
+ * gstreamer1.0-plugins-base
+ * gstreamer1.0-plugins-good
+ * gstreamer1.0-pulseaudio
+ * pulseaudio
+ * (pulseaudio-module-bluetooth)
+ * (pulsemixer)
+ 
+== Network ==
+
  * avahi-daemon
  * ca-certificates
  * libnss-mdns
@@ -41,7 +105,17 @@ Task-Metapackage: ubuntusway-desktop
  * wpasupplicant
  * wvdial
  
+== Office ==
+
+ * (libreoffice-calc)
+ * (libreoffice-impress)
+ * (libreoffice-writer)
+ * (libreoffice-gtk3)
+ * (libreoffice-style-yaru)
+ * !libreoffice-gnome
+ 
 == Printing ==
+
  * cups
  * cups-bsd
  * cups-client
@@ -60,67 +134,22 @@ Task-Metapackage: ubuntusway-desktop
  * printer-driver-sag-gdi
  * printer-driver-brlaser
  * printer-driver-gutenprint
-
-== Snaps ==
-
- * snap:firefox
- * snap:gnome-3-38-2004 # needed for firefox
- * snap:gtk-common-themes # needed for firefox
  
-== Sound ==
- * pulseaudio
- * pulseaudio-module-bluetooth
- 
-= Common low level components =
- * acpi-support
- * anacron
- * fwupd
- * fwupd-signed
- * fonts-noto-cjk
- * gvfs-fuse
- * gvfs-backends
- * htop
- * inputattach
- * kerneloops-daemon
- * laptop-detect
- * libpam-systemd
- * libsasl2-modules
- * neofetch
- * nano
- * network-manager
- * network-manager-gnome
- * policykit-desktop-privileges
- * sudo
- * tzdata
- * ubuntu-advantage-tools
- * ubuntu-drivers-common
- * ubuntu-keyring
- * ubuntu-minimal
- * unzip
- * xkb-data
- * xz-utils
- * zip
- 
-== Office ==
- * (libreoffice-calc)
- * (libreoffice-impress)
- * (libreoffice-writer)
- * (libreoffice-gtk3)
- * (libreoffice-style-yaru)
- * !libreoffice-gnome
+== Theming ==
+ * breeze-cursor-theme
+ * qt5-style-kvantum
+ * yaru-theme-gtk
+ * yaru-theme-icon
 
-= Apps =
- * (flameshot)
- * friendly-recovery
- * (gimp)
- * (imv)
- * (mpv)
- * (simple-scan)
- * (synaptic)
- * (suckless-tools)
- * (thunderbird)
- * (update-notifier)
- * (wdisplays)
- * (zathura)
- * (zathura-pdf-poppler)
- * software-properties-gtk
+== Ubuntu Sway Packages ==
+
+ * sway
+ * swaybg
+ * swaylock
+ * swayidle
+ * ubuntusway-default-settings
+ * ubuntusway-environment
+ 
+== Other ==
+
+ * ubuntusway-desktop # metapackage for everything here
