@@ -9,9 +9,11 @@ Task-Seeds: desktop-common
 == Apps ==
 
  * (flameshot)
+ * flatpak
  * friendly-recovery
  * (gimp)
  * (imv)
+ * (mpv)
  * (simple-scan)
  * (synaptic)
  * (suckless-tools)
@@ -21,6 +23,8 @@ Task-Seeds: desktop-common
  * (waypipe)
  * (wayvnc)
  * (zathura)
+ * (zathura-cb)
+ * (zathura-djvu)
  * (zathura-pdf-poppler)
  * software-properties-gtk
  
@@ -28,6 +32,8 @@ Task-Seeds: desktop-common
 
  * acpi-support
  * anacron
+ * bash-completion
+ * command-not-found
  * fwupd
  * fwupd-signed
  * fonts-noto-cjk
@@ -139,6 +145,10 @@ Task-Seeds: desktop-common
  * printer-driver-sag-gdi
  * printer-driver-brlaser
  * printer-driver-gutenprint
+ 
+== Qt5 Wayland support
+
+ * qtwayland5
  
 == Theming ==
 
