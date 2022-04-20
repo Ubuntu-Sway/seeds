@@ -102,6 +102,7 @@ Task-Seeds: desktop-common
  * pulseaudio
  * (pulseaudio-module-bluetooth)
  * (pulsemixer)
+ * wf-recorder
  
 == Network ==
 
@@ -154,15 +155,27 @@ Task-Seeds: desktop-common
 
  * breeze-cursor-theme
  * qt5-style-kvantum
+ * qt5ct
  * yaru-theme-gtk
  * yaru-theme-icon
 
 == Ubuntu Sway Packages ==
 
+ * grim
+ * grimshot
+ * kanshi
+ * khal
+ * light
+ * policykit-1-gnome
+ * slurp
  * sway
  * swaybg
  * swaylock
  * swayidle
+ * waybar
+ * wl-clipboard
+ * wob
+ * wofi
  * ubuntusway-default-settings
  * ubuntusway-environment
  
