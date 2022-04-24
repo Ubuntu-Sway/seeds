@@ -49,6 +49,7 @@ Task-Seeds: desktop-common
  * network-manager
  * network-manager-gnome
  * policykit-desktop-privileges
+ * rsync
  * sudo
  * tzdata
  * ubuntu-drivers-common
