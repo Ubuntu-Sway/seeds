@@ -60,11 +60,11 @@ Task-Seeds: desktop-common
  
 == Display manager ==
 
- * sddm
+ * greetd
+ * greetd-tuigreet
  
 == Web browser ==
 
- * falkon
  * qutebrowser
  
 == Fonts ==
