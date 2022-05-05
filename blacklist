@@ -1,4 +1,11 @@
-network-manager-config-connectivity
-network-manager-config-connectivity-ubuntu
-network-manager-config-connectivity-debian
+gdm3
 gnome-shell
+gnome-control-center
+gnome-font-viewer
+gnome-software
+gnome-software-common
+gnome-software-plugin-snap
+language-selector-gnome
+mutter
+ubuntu-desktop
+yelp

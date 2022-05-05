@@ -3,7 +3,7 @@ Task-Section: user
 Task-Description: Ubuntu Sway live CD
 Task-Extended-Description: This task provides the extra packages installed on the Ubuntu Sway live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
-Task-Key: calamares-settings-ubuntusway
+Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 Task-Seeds: live-common
 
@@ -15,13 +15,49 @@ Task-Seeds: live-common
 
  * grub-pc
 
-== Language support ==
+== Languages ==
 
- * language-pack-en
- * libreoffice-help-en-us
- * hunspell-en-us
+The full rationale on how we choose the languages and what we install
+is at https://launchpad.net/bugs/1520278
 
-== Other ==
+The ones currently installed on the live are:
+en, es, zh (simplified), pt, de, fr, it, ru
 
- * cifs-utils               # Needed by casper for CIFS root
- * cryptsetup               # For LUKS/encryption support in Calamares
+This should install check-language-support --show-installed -l $LANG from
+default live.
+
+# Default languages for most applications we ship by default
+ * Languages: en es zh-hans pt de fr it ru
+ * language-pack-${Languages}
+ * language-pack-gnome-${Languages}
+
+## hunspell dict
+ * Languages: en-au en-ca en-gb en-us en-za es fr it pt-br pt-pt ru
+ * hunspell-${Languages}
+
+## hunspell german frami variant dict (more complete)
+ * Languages: de-at de-ch de-de
+ * hunspell-${Languages}-frami
+
+# Other Dictionaries
+ * Languages: american british spanish portuguese brazilian ngerman ogerman swiss french italian
+ * w${Languages}
+ 
+== Fonts (zh-hans) ==
+
+ * fonts-noto-cjk
+ * fonts-arphic-uming
+ * fonts-arphic-ukai
+ 
+== Misc ==
+
+ * gparted
+ * expect
+ * cifs-utils # Needed by casper for CIFS root=
+ * jfsutils # Needed for JFS installation (lp:1442982)
+ * xfsprogs # Needed for XFS installation
+
+ * casper
+ * discover
+ * laptop-detect
+ * os-prober
