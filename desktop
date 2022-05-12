@@ -32,7 +32,6 @@ Task-Seeds: desktop-common
 
  * acpi-support
  * anacron
- * bash-completion
  * command-not-found
  * fwupd
  * fwupd-signed
@@ -45,7 +44,6 @@ Task-Seeds: desktop-common
  * libpam-systemd
  * libsasl2-modules
  * man-db
- * nano
  * network-manager
  * network-manager-gnome
  * policykit-desktop-privileges
@@ -100,6 +98,7 @@ Task-Seeds: desktop-common
  * gstreamer1.0-plugins-base
  * gstreamer1.0-plugins-good
  * gstreamer1.0-pulseaudio
+ * playerctl
  * pulseaudio
  * (pulseaudio-module-bluetooth)
  * (pulsemixer)
@@ -162,6 +161,7 @@ Task-Seeds: desktop-common
 
 == Ubuntu Sway Packages ==
 
+ * autotiling
  * grim
  * grimshot
  * kanshi
