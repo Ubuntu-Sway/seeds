@@ -168,6 +168,8 @@ Task-Seeds: desktop-common
  * khal
  * light
  * policykit-1-gnome
+ * python-is-python3
+ * python3-requests
  * slurp
  * sway
  * swaybg
