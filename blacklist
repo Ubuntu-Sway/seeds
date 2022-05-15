@@ -7,5 +7,6 @@ gnome-software-common
 gnome-software-plugin-snap
 language-selector-gnome
 mutter
+snapd
 ubuntu-desktop
 yelp
