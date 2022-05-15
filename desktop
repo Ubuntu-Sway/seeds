@@ -51,6 +51,7 @@ Task-Seeds: desktop-common
  * policykit-desktop-privileges
  * rsync
  * sudo
+ * !snapd
  * tzdata
  * ubuntu-drivers-common
  * unzip
