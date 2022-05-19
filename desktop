@@ -8,11 +8,11 @@ Task-Seeds: desktop-common
 
 == Apps ==
 
- * (flameshot)
  * flatpak
  * friendly-recovery
+ * (file-roller)
  * (gimp)
- * (imv)
+ * (swayimg)
  * (mpv)
  * (pluma)
  * (simple-scan)
@@ -101,6 +101,7 @@ Task-Seeds: desktop-common
  * gstreamer1.0-plugins-base
  * gstreamer1.0-plugins-good
  * gstreamer1.0-pulseaudio
+ * pavucontrol
  * playerctl
  * pulseaudio
  * (pulseaudio-module-bluetooth)
@@ -165,12 +166,14 @@ Task-Seeds: desktop-common
 == Ubuntu Sway Packages ==
 
  * autotiling
+ * azote
  * cliphist
  * grim
  * grimshot
  * kanshi
  * khal
  * light
+ * nwg-drawer
  * nwg-wrapper
  * policykit-1-gnome
  * poweralertd
