@@ -53,7 +53,7 @@ Task-Seeds: desktop-common
  * policykit-desktop-privileges
  * rsync
  * sudo
- * !snapd
+ * !(snapd)
  * tzdata
  * ubuntu-drivers-common
  * unzip
