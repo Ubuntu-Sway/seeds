@@ -22,6 +22,7 @@ Task-Seeds: desktop-common
  * (thunderbird)
  * (update-notifier)
  * (wdisplays)
+ * (wlr-randr)
  * (waypipe)
  * (wayvnc)
  * (zathura)
@@ -46,6 +47,7 @@ Task-Seeds: desktop-common
  * libpam-systemd
  * libsasl2-modules
  * man-db
+ * nano
  * network-manager
  * network-manager-gnome
  * policykit-desktop-privileges
@@ -158,8 +160,10 @@ Task-Seeds: desktop-common
 == Theming ==
 
  * breeze-cursor-theme
+ * libglib2.0-bin
  * qt5-style-kvantum
  * qt5ct
+ * xsettingsd
  * yaru-theme-gtk
  * yaru-theme-icon
 
@@ -168,11 +172,14 @@ Task-Seeds: desktop-common
  * autotiling
  * azote
  * cliphist
+ * foot
  * grim
  * grimshot
  * kanshi
  * khal
  * light
+ * mako-notifier
+ * neovim
  * nwg-drawer
  * nwg-wrapper
  * policykit-1-gnome
@@ -184,12 +191,13 @@ Task-Seeds: desktop-common
  * swaybg
  * swaylock
  * swayidle
+ * ubuntusway-default-settings
  * waybar
  * wl-clipboard
  * wob
  * wofi
- * ubuntusway-default-settings
- * ubuntusway-environment
+ * xdg-desktop-portal-wlr
+ * xwayland
  
 == Other ==
 
