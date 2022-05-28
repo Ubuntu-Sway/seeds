@@ -3,4 +3,4 @@ desktop: desktop-common
 live: desktop live-common
 ship-live: boot live
 # make sure supported remains the last entry
-supported: desktop ship-live supported-common
+supported: boot desktop ship-live supported-common
