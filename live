@@ -43,21 +43,11 @@ default live.
  * Languages: american british spanish portuguese brazilian ngerman ogerman swiss french italian
  * w${Languages}
  
-== Fonts (zh-hans) ==
-
- * fonts-noto-cjk
- * fonts-arphic-uming
- * fonts-arphic-ukai
- 
 == Misc ==
 
  * gparted
  * expect
  * cifs-utils # Needed by casper for CIFS root=
- * jfsutils # Needed for JFS installation (lp:1442982)
- * xfsprogs # Needed for XFS installation
-
  * casper
  * discover
- * laptop-detect
  * os-prober
