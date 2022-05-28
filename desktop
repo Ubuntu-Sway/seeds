@@ -33,33 +33,13 @@ Task-Seeds: desktop-common
  
 == Common low level components ==
 
- * acpi-support
- * anacron
- * command-not-found
- * fwupd
- * fwupd-signed
- * fonts-noto-cjk
  * gvfs-fuse
  * gvfs-backends
- * inputattach
  * kerneloops-daemon
- * laptop-detect
- * libpam-systemd
- * libsasl2-modules
- * man-db
- * nano
  * network-manager
  * network-manager-gnome
- * policykit-desktop-privileges
- * rsync
- * sudo
  * !(snapd)
- * tzdata
- * ubuntu-drivers-common
- * unzip
- * xkb-data
  * xz-utils
- * zip
  
 == Display manager ==
 
@@ -74,14 +54,10 @@ Task-Seeds: desktop-common
 
  * (fonts-arphic-ukai)
  * (fonts-arphic-uming)
- * (fonts-dejavu-core)
- * (fonts-kacst-one)
  * (fonts-liberation2)
  * (fonts-noto-color-emoji)
  * (fonts-opensymbol)
- * (fonts-sil-padauk)
  * fonts-font-awesome
- * fonts-ubuntu
  
 == Hardware ==
 
@@ -112,15 +88,9 @@ Task-Seeds: desktop-common
  
 == Network ==
 
- * avahi-daemon
- * ca-certificates
- * libnss-mdns
  * mobile-broadband-provider-info
  * modemmanager
- * rfkill
  * usb-modeswitch
- * wireless-tools
- * wpasupplicant
  * wvdial
  
 == Office ==
@@ -134,23 +104,6 @@ Task-Seeds: desktop-common
  
 == Printing ==
 
- * cups
- * cups-bsd
- * cups-client
- * cups-filters
- * foomatic-db-compressed-ppds
- * ghostscript-x
- * hplip
- * openprinting-ppds
- * printer-driver-pnm2ppa
- * printer-driver-min12xxw
- * printer-driver-foo2zjs
- * printer-driver-splix
- * printer-driver-pxljr
- * printer-driver-c2esp
- * printer-driver-ptouch
- * printer-driver-sag-gdi
- * printer-driver-brlaser
  * printer-driver-gutenprint
  
 == Qt5 Wayland support
