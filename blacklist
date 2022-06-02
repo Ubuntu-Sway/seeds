@@ -1,12 +1,15 @@
 gdm3
 gnome-shell
 gnome-control-center
+gnome-desktop3-data
 gnome-font-viewer
 gnome-software
 gnome-software-common
 gnome-software-plugin-snap
+gnome-startup-applications
 language-selector-gnome
 mutter
 snapd
+synaptic
 ubuntu-desktop
 yelp
