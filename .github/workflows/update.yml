@@ -1,0 +1,50 @@
+name: Update Metapackages
+
+on:
+  push:
+    branches:
+      - jammy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:rolling
+
+    steps:
+    # We need git to checkout the metapackages repository with git so keep it above
+    - name: Install dependencies
+      shell: bash
+      run: |
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get -qq update
+        apt-get -qq install tzdata git devscripts debootstrap germinate
+    - name: Checkout seeds
+      uses: actions/checkout@v2
+
+    - name: Checkout metapackages
+      uses: actions/checkout@v2
+      with:
+        repository: Ubuntu-Sway/ubuntusway-meta
+        path: ubuntusway-meta
+        token: "${{ secrets.GIT_USER_TOKEN }}"
+        ref: jammy
+
+    - name: Update metapackages
+      shell: bash
+      env:
+        BRANCH: jammy
+      run: |
+        cd ubuntusway-meta
+        ./update
+        if git diff --quiet ; then
+            echo "Everything is up-to-date, nothing to commit"
+        else
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "github-actions"
+            echo "Committing new changes"
+            git add .
+            git commit -m "Automatic update via Ubuntu Sway Remix seeds"
+            git push origin "$BRANCH"
+            echo "Push complete"
+        fi
