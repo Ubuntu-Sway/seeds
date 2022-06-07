@@ -133,6 +133,7 @@ Task-Seeds: desktop-common
  * mako-notifier
  * neovim
  * nwg-drawer
+ * nwg-look
  * nwg-wrapper
  * policykit-1-gnome
  * poweralertd
