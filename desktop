@@ -36,7 +36,6 @@ Task-Seeds: desktop-common
  * gvfs-backends
  * kerneloops-daemon
  * network-manager
- * network-manager-gnome
  * !(snapd)
  * xz-utils
  
