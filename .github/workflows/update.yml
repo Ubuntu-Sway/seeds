@@ -20,11 +20,9 @@ jobs:
         apt-get -qq update
         apt-get -qq install tzdata git devscripts debootstrap germinate
     - name: Checkout seeds
-      if: github.event.pull_request.head.repo.full_name == github.repository
       uses: actions/checkout@v2
 
     - name: Checkout metapackages
-      if: github.event.pull_request.head.repo.full_name == github.repository
       uses: actions/checkout@v2
       with:
         repository: Ubuntu-Sway/ubuntusway-meta
