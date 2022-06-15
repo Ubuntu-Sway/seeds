@@ -8,17 +8,20 @@ Task-Seeds: desktop-common
 
 == Apps ==
 
- * (flatpak)
  * (engrampa)
+ * (flatpak)
  * (gimp)
- * (swayimg)
+ * (gnome-packagekit)
+ * (mate-calc)
  * (mpv)
  * (pcmanfm-gtk3)
  * (pluma)
+ * (ranger)
  * (simple-scan)
- * (synaptic)
  * (suckless-tools)
+ * (swayimg)
  * (thunderbird)
+ * (transmission)
  * (update-notifier)
  * (wdisplays)
  * (wlr-randr)
@@ -48,6 +51,7 @@ Task-Seeds: desktop-common
 == Web browser ==
 
  * firefox
+ * (qutebrowser)
  
 == Fonts ==
 
