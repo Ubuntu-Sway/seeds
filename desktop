@@ -3,7 +3,6 @@ Task-Section: user
 Task-Description: Ubuntu Sway desktop
 Task-Extended-Description: This task provides the Ubuntu Sway environment.
 Task-Key: ubuntusway-desktop
-Task-Name: ubuntusway-desktop
 Task-Seeds: desktop-common
 
 == Apps ==
@@ -40,8 +39,6 @@ Task-Seeds: desktop-common
  * gvfs-backends
  * kerneloops-daemon
  * network-manager
- * !(snapd)
- * xz-utils
  
 == Display manager ==
 
