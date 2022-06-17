@@ -20,10 +20,10 @@ jobs:
         apt-get -qq update
         apt-get -qq install tzdata git devscripts debootstrap germinate
     - name: Checkout seeds
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
     - name: Checkout metapackages
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
       with:
         repository: Ubuntu-Sway/ubuntusway-meta
         path: ubuntusway-meta
