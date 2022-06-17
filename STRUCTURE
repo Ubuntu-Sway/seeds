@@ -1,6 +1,5 @@
+feature follow-recommends
 include platform.jammy
 desktop: desktop-common
 live: desktop live-common
-ship-live: boot live
-# make sure supported remains the last entry
-supported: boot desktop ship-live supported-common
+ship: boot installer desktop d-i-requirements

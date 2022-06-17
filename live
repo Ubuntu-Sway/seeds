@@ -48,6 +48,10 @@ default live.
  * gparted
  * expect
  * cifs-utils # Needed by casper for CIFS root=
+ * jfsutils # Needed for JFS installation (lp:1442982)
+ * xfsprogs # Needed for XFS installation
+
  * casper
  * discover
+ * laptop-detect
  * os-prober
