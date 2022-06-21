@@ -116,11 +116,9 @@ Task-Seeds: desktop-common
 
  * breeze-cursor-theme
  * libglib2.0-bin
- * qt5-style-kvantum
  * qt5ct
+ * ubuntusway-artwork
  * xsettingsd
- * yaru-theme-gtk
- * yaru-theme-icon
 
 == Ubuntu Sway Packages ==
 
