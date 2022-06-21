@@ -150,6 +150,7 @@ Task-Seeds: desktop-common
  * ubuntusway-default-settings
  * waybar
  * wl-clipboard
+ * wlogout
  * wob
  * wofi
  * xdg-desktop-portal-wlr
