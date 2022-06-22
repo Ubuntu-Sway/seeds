@@ -116,6 +116,8 @@ Task-Seeds: desktop-common
 
  * breeze-cursor-theme
  * libglib2.0-bin
+ * plymouth-theme-ubuntusway-logo
+ * plymouth-theme-ubuntusway-text
  * qt5ct
  * ubuntusway-artwork
  * xsettingsd
