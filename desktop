@@ -122,6 +122,7 @@ Task-Seeds: desktop-common
  * plymouth-theme-ubuntusway-text
  * qt5ct
  * ubuntusway-artwork
+ * ubuntusway-grub-theme
  * xsettingsd
 
 == Ubuntu Sway Packages ==
