@@ -80,13 +80,14 @@ Task-Seeds: desktop-common
  * gstreamer1.0-plugins-base
  * gstreamer1.0-plugins-good
  * gstreamer1.0-pulseaudio
- * (mpv)
+ * (mpv) [amd64]
  * (musikcube)
  * (pavucontrol)
  * (playerctl)
  * pulseaudio
  * (pulseaudio-module-bluetooth)
  * (pulsemixer)
+ * (vlc) [arm64]
  * wf-recorder
  
 == Network ==
