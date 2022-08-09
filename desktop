@@ -76,6 +76,7 @@ Task-Seeds: desktop-common
 == Multimedia ==
 
  * (audacious)
+ * ffmpeg
  * gstreamer1.0-alsa
  * gstreamer1.0-plugins-base
  * gstreamer1.0-plugins-good
