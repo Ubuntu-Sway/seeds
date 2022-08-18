@@ -110,9 +110,10 @@ Task-Seeds: desktop-common
 
  * printer-driver-gutenprint
  
-== Qt5 Wayland support
+== Qt5/Qt6 Wayland support
 
  * qtwayland5
+ * qt6-wayland
  
 == Theming ==
 
