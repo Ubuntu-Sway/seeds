@@ -23,7 +23,6 @@ Task-Seeds: desktop-common
  * (transmission)
  * (update-notifier)
  * (usb-creator-gtk)
- * (wdisplays)
  * (wlr-randr)
  * (waypipe)
  * (wayvnc)
@@ -140,6 +139,7 @@ Task-Seeds: desktop-common
  * lxpolkit
  * mako-notifier
  * neovim
+ * nwg-displays
  * nwg-drawer
  * nwg-look
  * nwg-wrapper
