@@ -153,6 +153,7 @@ Task-Seeds: desktop-common
  * swayidle
  * ubuntusway-default-settings [amd64]
  * ubuntusway-rpi-default-settings [arm64]
+ * (ubuntusway-welcome) [amd64]
  * waybar
  * wl-clipboard
  * wlogout
