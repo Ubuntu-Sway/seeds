@@ -151,6 +151,7 @@ Task-Seeds: desktop-common
  * swaybg
  * swaylock
  * swayidle
+ * sway-input-config
  * ubuntusway-default-settings [amd64]
  * ubuntusway-rpi-default-settings [arm64]
  * (ubuntusway-welcome) [amd64]
