@@ -20,7 +20,7 @@ Task-Seeds: desktop-common
  * (software-properties-gtk)
  * (swayimg)
  * (thunderbird)
- * (transmission)
+ * (transmission-gtk)
  * (update-notifier)
  * (usb-creator-gtk)
  * (wlr-randr)
@@ -37,6 +37,7 @@ Task-Seeds: desktop-common
  * gvfs-fuse
  * gvfs-backends
  * kerneloops-daemon
+ * (systemd-oomd)
  
 == Display manager ==
 
