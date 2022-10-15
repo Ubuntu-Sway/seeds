@@ -34,11 +34,21 @@ Task-Seeds: desktop-common
  
 == Common components ==
 
+ * (apt-xapian-index)
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (desktop-file-utils) #appimage integration + other uses
  * dex
  * gvfs-fuse
  * gvfs-backends
+ * (go-mtpfs)
  * kerneloops-daemon
- * (systemd-oomd)
+ * (libfuse2) # required for appimages
+ * (plocate)
+ * (ppa-purge)
+ * (udisks2)
+ * (upower)
+ * xdg-user-dirs
+ * (xdg-utils)         # useful utilities
  
 == Display manager ==
 
@@ -72,6 +82,7 @@ Task-Seeds: desktop-common
  * (mesa-utils)
  * (mesa-utils-extra)
  * (neofetch)
+ * (systemd-oomd)
  * (vulkan-tools)
  * (wev)
  
@@ -79,7 +90,9 @@ Task-Seeds: desktop-common
 
  * (audacious)
  * gstreamer1.0-alsa
+ * gstreamer1.0-pipewire
  * gstreamer1.0-plugins-base
+ * gstreamer1.0-plugins-base-apps
  * gstreamer1.0-plugins-good
  * (libspa-0.2-bluetooth)
  * (mpv) [amd64]
