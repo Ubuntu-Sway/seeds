@@ -155,6 +155,7 @@ Task-Seeds: desktop-common
  * lxpolkit
  * mako-notifier
  * neovim
+ * nwg-bar
  * nwg-displays
  * nwg-drawer
  * nwg-look
@@ -174,7 +175,6 @@ Task-Seeds: desktop-common
  * (ubuntusway-welcome) [amd64]
  * waybar
  * wl-clipboard
- * wlogout
  * wob
  * xdg-desktop-portal-wlr
  * xwayland
