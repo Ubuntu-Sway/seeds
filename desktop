@@ -133,6 +133,7 @@ Task-Seeds: desktop-common
  
 == Theming ==
 
+ * breeze-cursor-theme
  * libglib2.0-bin
  * plymouth-theme-ubuntusway-logo
  * plymouth-theme-ubuntusway-text
