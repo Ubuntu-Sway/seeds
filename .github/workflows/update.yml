@@ -3,7 +3,7 @@ name: Update Metapackages
 on:
   push:
     branches:
-      - kinetic
+      - lunar
 
 jobs:
   build:
@@ -28,12 +28,12 @@ jobs:
         repository: Ubuntu-Sway/ubuntusway-meta
         path: ubuntusway-meta
         token: "${{ secrets.GIT_USER_TOKEN }}"
-        ref: kinetic
+        ref: lunar
 
     - name: Update metapackages
       shell: bash
       env:
-        BRANCH: kinetic
+        BRANCH: lunar
       run: |
         cd ubuntusway-meta
         ./update

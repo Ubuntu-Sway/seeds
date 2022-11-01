@@ -3,7 +3,7 @@ Task-Section: user
 Task-Description: Ubuntu Sway live CD
 Task-Extended-Description: This task provides the extra packages installed on the Ubuntu Sway live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
-Task-Key: ubiquity-frontend-gtk
+Task-Key: calamares-settings-ubuntusway
 Task-Test-new-install: skip show
 Task-Seeds: live-common
 
@@ -48,8 +48,9 @@ default live.
  * gparted
  * expect
  * cifs-utils # Needed by casper for CIFS root=
- * jfsutils # Needed for JFS installation (lp:1442982)
- * xfsprogs # Needed for XFS installation
+ * cryptsetup               # For LUKS/encryption support in Calamares
+ * jfsutils                 # Needed for JFS installation (lp:1442982)
+ * xfsprogs                 # Needed for XFS installation
 
  * casper
  * discover

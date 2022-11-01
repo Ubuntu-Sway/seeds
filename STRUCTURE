@@ -1,4 +1,6 @@
 include platform.kinetic
 desktop: desktop-common
 live: desktop live-common
-ship: boot desktop d-i-requirements
+ship-live: boot live
+# make sure supported remains the last entry
+supported: desktop ship-live supported-common
