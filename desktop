@@ -9,7 +9,6 @@ Task-Seeds: desktop-common
 
  * (engrampa)
  * (flatpak)
- * (gimp)
  * (gnome-packagekit)
  * (kitty)
  * (lximage-qt)
@@ -138,6 +137,7 @@ Task-Seeds: desktop-common
  * plymouth-theme-ubuntusway-logo
  * plymouth-theme-ubuntusway-text
  * qt5ct
+ * qt6ct
  * ubuntusway-artwork
  * ubuntusway-grub-theme
  * xsettingsd
