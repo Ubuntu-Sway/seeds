@@ -14,6 +14,7 @@ Task-Seeds: desktop-common
  * (kitty)
  * (lximage-qt)
  * (mate-calc)
+ * (neovim)
  * (pcmanfm-gtk3)
  * (pluma)
  * (ranger)
@@ -155,7 +156,6 @@ Task-Seeds: desktop-common
  * light
  * lxpolkit
  * mako-notifier
- * neovim
  * nwg-bar
  * nwg-displays
  * nwg-drawer
