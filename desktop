@@ -51,8 +51,9 @@ Task-Seeds: desktop-common
  
 == Display manager ==
 
+ * (cage)             # needed to run gtkgreet
  * (greetd)
- * (greetd-tuigreet)
+ * (greetd-gtkgreet)
  
 == Web browser ==
 
@@ -81,7 +82,7 @@ Task-Seeds: desktop-common
  * (mesa-utils)
  * (mesa-utils-extra)
  * (neofetch)
- * (systemd-oomd)
+ * (earlyoom)
  * (vulkan-tools)
  * (wev)
  
@@ -176,6 +177,7 @@ Task-Seeds: desktop-common
  * (ubuntusway-welcome) [amd64]
  * waybar
  * wl-clipboard
+ * wlsunset
  * wob
  * xdg-desktop-portal-wlr
  * xwayland
