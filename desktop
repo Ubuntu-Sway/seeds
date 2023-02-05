@@ -12,6 +12,7 @@ Task-Seeds: desktop-common
  * (gnome-packagekit)
  * (lximage-qt)
  * (mate-calc)
+ * (neovim)
  * (pcmanfm-gtk3)
  * (pluma)
  * (ranger)
@@ -93,16 +94,14 @@ Task-Seeds: desktop-common
  * gstreamer1.0-plugins-base
  * gstreamer1.0-plugins-base-apps
  * gstreamer1.0-plugins-good
- * (libspa-0.2-bluetooth)
  * (mpv) [amd64]
  * (musikcube)
  * (pavucontrol)
- * pipewire-pulse
+ * pipewire-audio
  * (playerctl)
  * (pulsemixer)
  * (vlc) [arm64]
  * wf-recorder
- * wireplumber
  
 == Network ==
 
@@ -124,6 +123,7 @@ Task-Seeds: desktop-common
 == Printing ==
 
  * printer-driver-gutenprint
+ * system-config-printer
  
 == Qt5/Qt6 Wayland support
 
@@ -146,16 +146,14 @@ Task-Seeds: desktop-common
 
  * autotiling
  * azote
+ * calcurse
  * cliphist
- * flashfocus
  * foot
  * grimshot
  * kanshi
- * khal
  * light
- * lxpolkit
+ * lxpolkit-gtk3
  * mako-notifier
- * neovim
  * nwg-bar
  * nwg-displays
  * nwg-drawer
@@ -170,6 +168,7 @@ Task-Seeds: desktop-common
  * swaybg
  * swaylock
  * swayidle
+ * swayr
  * sway-input-config
  * ubuntusway-default-settings [amd64]
  * ubuntusway-rpi-default-settings [arm64]
@@ -178,6 +177,7 @@ Task-Seeds: desktop-common
  * wl-clipboard
  * wlsunset
  * wob
+ * xdg-desktop-portal-gtk
  * xdg-desktop-portal-wlr
  * xwayland
  
