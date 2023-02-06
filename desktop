@@ -51,9 +51,8 @@ Task-Seeds: desktop-common
  
 == Display manager ==
 
- * (cage)             # needed to run gtkgreet
  * (greetd)
- * (greetd-gtkgreet)
+ * (greetd-tuigreet)
  
 == Web browser ==
 
