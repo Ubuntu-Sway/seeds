@@ -40,6 +40,7 @@ Task-Seeds: desktop-common
  * gvfs-fuse
  * gvfs-backends
  * (go-mtpfs)
+ * gron
  * kerneloops-daemon
  * (libfuse2) # required for appimages
  * (plocate)
