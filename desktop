@@ -165,6 +165,7 @@ Task-Seeds: desktop-common
  * rofi-wayland
  * slurp
  * sway
+ * swappy
  * swaybg
  * swaylock
  * swayidle
