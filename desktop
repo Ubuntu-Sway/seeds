@@ -41,6 +41,7 @@ Task-Seeds: desktop-common
  * gvfs-backends
  * (go-mtpfs)
  * gron
+ * inotify-tools
  * kerneloops-daemon
  * (libfuse2) # required for appimages
  * (plocate)
