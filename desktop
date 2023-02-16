@@ -35,6 +35,7 @@ Task-Seeds: desktop-common
 
  * (apt-xapian-index)
  * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * curl
  * (desktop-file-utils) #appimage integration + other uses
  * dex
  * gvfs-fuse
