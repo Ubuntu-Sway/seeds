@@ -99,7 +99,8 @@ Task-Seeds: desktop-common
  * (musikcube)
  * (pavucontrol)
  * pipewire-audio
- * (playerctl)
+ * playerctl
+ * pulsemixer
  * pulseaudio-utils
  * (vlc) [arm64]
  * wf-recorder
