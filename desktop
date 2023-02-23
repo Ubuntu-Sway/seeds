@@ -8,7 +8,6 @@ Task-Seeds: desktop-common
 == Apps ==
 
  * (engrampa)
- * (flatpak)
  * (gnome-packagekit)
  * (lximage-qt)
  * (mate-calc)
@@ -101,7 +100,7 @@ Task-Seeds: desktop-common
  * (pavucontrol)
  * pipewire-audio
  * (playerctl)
- * (pulsemixer)
+ * pulseaudio-utils
  * (vlc) [arm64]
  * wf-recorder
  
@@ -179,7 +178,6 @@ Task-Seeds: desktop-common
  * waybar
  * wl-clipboard
  * wlsunset
- * wob
  * xdg-desktop-portal-gtk
  * xdg-desktop-portal-wlr
  * xwayland
