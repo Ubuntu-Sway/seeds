@@ -75,6 +75,7 @@ Task-Seeds: desktop-common
 == Hardware ==
 
  * (drm-info)
+ * (earlyoom)
  * (gamemode) [amd64]
  * (tlp) [amd64]
  * (thermald) [amd64]
@@ -83,8 +84,8 @@ Task-Seeds: desktop-common
  * (mesa-utils)
  * (mesa-utils-extra)
  * (neofetch)
- * (earlyoom)
  * (vulkan-tools)
+ * (wayland-utils)
  * (wev)
  
 == Multimedia ==
