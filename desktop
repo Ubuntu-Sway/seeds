@@ -54,7 +54,8 @@ Task-Seeds: desktop-common
 == Display manager ==
 
  * (greetd)
- * (greetd-tuigreet)
+ * (greetd-gtkgreet)
+ * (cage)
  
 == Web browser ==
 
