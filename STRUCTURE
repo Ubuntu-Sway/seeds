@@ -1,5 +1,6 @@
 include platform.lunar
 desktop: desktop-common
+desktop-raspi: desktop raspi-common
 live: desktop live-common
 ship-live: boot live
 # make sure supported remains the last entry

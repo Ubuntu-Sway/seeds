@@ -175,7 +175,6 @@ Task-Seeds: desktop-common
  * swayr
  * sway-input-config
  * ubuntu-sway-default-settings [amd64]
- * ubuntu-sway-raspi-settings-desktop [arm64]
  * (ubuntu-sway-welcome) [amd64]
  * waybar
  * wl-clipboard
