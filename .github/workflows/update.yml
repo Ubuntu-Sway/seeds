@@ -25,8 +25,8 @@ jobs:
     - name: Checkout metapackages
       uses: actions/checkout@v2
       with:
-        repository: Ubuntu-Sway/ubuntusway-meta
-        path: ubuntusway-meta
+        repository: Ubuntu-Sway/ubuntu-sway-meta
+        path: ubuntu-sway-meta
         token: "${{ secrets.GIT_USER_TOKEN }}"
         ref: lunar
 
@@ -35,7 +35,7 @@ jobs:
       env:
         BRANCH: lunar
       run: |
-        cd ubuntusway-meta
+        cd ubuntu-sway-meta
         ./update
         if git diff --quiet ; then
             echo "Everything is up-to-date, nothing to commit"
