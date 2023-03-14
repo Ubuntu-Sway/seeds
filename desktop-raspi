@@ -8,8 +8,7 @@ Task-Seeds: desktop desktop-common raspi-common
 = Packages required exclusively by the Raspberry Pi desktop image =
 
  * cloud-initramfs-growroot
- * ubuntu-raspi-settings-desktop
- * ubuntu-sway-raspi-settings-desktop
+ * ubuntu-sway-raspi-settings
 
 = Metapackages produced by this and dependent seeds =
 
