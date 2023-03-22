@@ -77,6 +77,7 @@ Task-Seeds: desktop-common
  * (drm-info)
  * (earlyoom)
  * (gamemode) [amd64]
+ * (gnome-firmware)
  * (tlp) [amd64]
  * (thermald) [amd64]
  * (inxi)
