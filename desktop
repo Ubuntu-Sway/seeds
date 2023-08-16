@@ -17,7 +17,7 @@ Task-Seeds: desktop-common
  * (ranger)
  * (simple-scan)
  * (software-properties-gtk)
- * (swayimg)
+ * (imv)
  * (thunderbird)
  * (transmission-gtk)
  * (update-notifier)
@@ -36,7 +36,6 @@ Task-Seeds: desktop-common
  * (avahi-autoipd)     # IPv4 link-local interface configuration support
  * curl
  * (desktop-file-utils) #appimage integration + other uses
- * dex
  * gvfs-fuse
  * gvfs-backends
  * (go-mtpfs)
@@ -75,7 +74,6 @@ Task-Seeds: desktop-common
 == Hardware ==
 
  * (drm-info)
- * (earlyoom)
  * (gamemode) [amd64]
  * (gnome-firmware)
  * (tlp) [amd64]
@@ -85,6 +83,7 @@ Task-Seeds: desktop-common
  * (mesa-utils)
  * (mesa-utils-extra)
  * (neofetch)
+ * (systemd-oomd)
  * (vulkan-tools)
  * (wayland-utils)
  * (wev)
@@ -174,6 +173,7 @@ Task-Seeds: desktop-common
  * swaylock
  * swayidle
  * swayr
+ * sway-systemd
  * sway-input-config
  * ubuntu-sway-default-settings [amd64]
  * (ubuntu-sway-welcome) [amd64]
