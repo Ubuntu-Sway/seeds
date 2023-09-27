@@ -155,7 +155,7 @@ Task-Seeds: desktop-common
  * grimshot
  * kanshi
  * light
- * lxpolkit-gtk3
+ * mate-polkit-bin
  * mako-notifier
  * nwg-bar
  * nwg-displays
