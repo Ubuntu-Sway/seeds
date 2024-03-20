@@ -150,12 +150,12 @@ Task-Seeds: desktop-common
 
  * autotiling
  * azote
+ * brightnessctl
  * calcurse
  * cliphist
- * foot
+ * (foot)
  * grimshot
  * kanshi
- * light
  * mate-polkit-bin
  * mako-notifier
  * nwg-bar
