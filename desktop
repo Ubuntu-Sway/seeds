@@ -9,7 +9,7 @@ Task-Seeds: desktop-common
 
  * (bluetuith)
  * (engrampa)
- * (gnome-packagekit)
+ * (gnome-software)
  * (lximage-qt)
  * (mate-calc)
  * (neovim)
@@ -23,9 +23,6 @@ Task-Seeds: desktop-common
  * (transmission-gtk)
  * (update-notifier)
  * (usb-creator-gtk)
- * (wlr-randr)
- * (waypipe)
- * (wayvnc)
  * (zathura)
  * (zathura-cb)
  * (zathura-djvu)
@@ -74,6 +71,7 @@ Task-Seeds: desktop-common
  
 == Hardware ==
 
+ * acpi
  * (drm-info)
  * (gamemode) [amd64]
  * (gnome-firmware)
@@ -127,7 +125,7 @@ Task-Seeds: desktop-common
 == Printing ==
 
  * printer-driver-gutenprint
- * system-config-printer
+ * (system-config-printer)
  
 == Qt5/Qt6 Wayland support
 
@@ -164,9 +162,8 @@ Task-Seeds: desktop-common
  * nwg-look
  * nwg-wrapper
  * poweralertd [amd64]
- * python-is-python3
  * python3-requests
- * rofi-wayland
+ * (rofi-wayland)
  * slurp
  * sway
  * swappy
@@ -183,7 +180,7 @@ Task-Seeds: desktop-common
  * wlsunset
  * xdg-desktop-portal-gtk
  * xdg-desktop-portal-wlr
- * xwayland
+ * (xwayland)
  
 == Other ==
 
