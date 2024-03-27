@@ -5,6 +5,7 @@ gnome-desktop3-data
 gnome-font-viewer
 gnome-software-plugin-snap
 gnome-startup-applications
+imagemagick*
 language-selector-gnome
 mutter
 snapd
