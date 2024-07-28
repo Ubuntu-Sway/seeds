@@ -1,4 +1,4 @@
-include platform.noble
+include platform.oracular
 desktop: desktop-common
 desktop-raspi: desktop raspi-common
 live: desktop live-common

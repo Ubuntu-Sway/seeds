@@ -19,8 +19,6 @@ Task-Seeds: desktop-common
  * (simple-scan)
  * (software-properties-gtk)
  * (imv)
- * (thunderbird)
- * (transmission-gtk)
  * (update-notifier)
  * (usb-creator-gtk)
  * (zathura)
@@ -51,12 +49,21 @@ Task-Seeds: desktop-common
 == Display manager ==
 
  * (greetd)
- * (greetd-tuigreet)
- 
-== Web browser ==
+ * (tuigreet)
 
- * (firefox) [amd64]
- * (qutebrowser)
+== Internet ==
+
+* (qutebrowser)
+* (thunderbird)
+* (transmission-gtk)
+ 
+== Snaps ==
+
+ * (firefox)
+ * snap:firefox
+ * snap:thunderbird
+ * snap:gnome-42-2204 # needed for firefox
+ * snap:gtk-common-themes # needed for firefox
  
 == Fonts ==
 
@@ -90,6 +97,7 @@ Task-Seeds: desktop-common
 == Multimedia ==
 
  * (audacious)
+ * bluez-obexd
  * gstreamer1.0-alsa
  * gstreamer1.0-pipewire
  * gstreamer1.0-plugins-base
