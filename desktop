@@ -53,17 +53,10 @@ Task-Seeds: desktop-common
 
 == Internet ==
 
+* (firefox)
 * (qutebrowser)
 * (thunderbird)
 * (transmission-gtk)
- 
-== Snaps ==
-
- * (firefox)
- * snap:firefox
- * snap:thunderbird
- * snap:gnome-42-2204 # needed for firefox
- * snap:gtk-common-themes # needed for firefox
  
 == Fonts ==
 
@@ -181,7 +174,7 @@ Task-Seeds: desktop-common
  * swayr
  * sway-systemd
  * sway-input-config
- * ubuntu-sway-default-settings [amd64]
+ * (ubuntu-sway-default-settings) [amd64]
  * (ubuntu-sway-welcome) [amd64]
  * waybar
  * wl-clipboard

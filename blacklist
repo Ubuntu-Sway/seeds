@@ -4,9 +4,11 @@ gnome-control-center
 gnome-desktop3-data
 gnome-font-viewer
 gnome-startup-applications
+gnome-software-plugin-snap
 imagemagick*
 language-selector-gnome
 mutter
+snapd
 synaptic
 tilix
 ubuntu-desktop
