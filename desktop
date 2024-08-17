@@ -153,11 +153,13 @@ Task-Seeds: desktop-common
  * calcurse
  * cliphist
  * (foot)
+ * (fuzzel)
  * grimshot
  * kanshi
  * mate-polkit-bin
  * mako-notifier
  * nwg-bar
+ * nwg-clipman
  * nwg-displays
  * nwg-drawer
  * nwg-look
