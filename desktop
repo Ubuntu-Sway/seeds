@@ -153,18 +153,19 @@ Task-Seeds: desktop-common
  * calcurse
  * cliphist
  * (foot)
+ * (fuzzel)
  * grimshot
  * kanshi
  * mate-polkit-bin
  * mako-notifier
  * nwg-bar
+ * nwg-clipman
  * nwg-displays
  * nwg-drawer
  * nwg-look
  * nwg-wrapper
  * poweralertd [amd64]
  * python3-requests
- * (rofi-wayland)
  * slurp
  * sway
  * swappy
