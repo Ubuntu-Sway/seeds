@@ -166,7 +166,6 @@ Task-Seeds: desktop-common
  * nwg-wrapper
  * poweralertd [amd64]
  * python3-requests
- * (rofi-wayland)
  * slurp
  * sway
  * swappy
