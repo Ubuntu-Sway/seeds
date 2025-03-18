@@ -6,16 +6,39 @@ packages.
 == Hardware & Network Access ==
 
  * pptp-linux                   # client for Microsoft-compatible VPNs, needed for some ISPs
- * caspar
- * libatm1                      # suggested by ppp for PPP-over-ATM
  * setserial	                # needed by folks with nonstandard serial ports
 
 == Installer ==
 
- * lupin-support [amd64 i386]    # installer-for-windows
  * grub2                         # needed for dmraid et al
  * grub-efi [amd64]
  * grub-efi-amd64-signed [amd64]
  * grub-efi-ia32 [amd64 i386]    # Needed for 32-bit UEFI installs, sometimes on amd64
  * shim-signed [amd64]
  * mokutil [amd64 i386 arm64 armhf] # Needed for UEFI installs with no network
+ * realmd                       # Client for Active Directory
+
+# List source: https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers
+== Localization ==
+
+ * language-pack-gnome-zh-hans
+ * language-pack-kde-zh-hans
+ * libreoffice-l10n-zh-cn
+ * language-pack-zh-hans
+ * language-pack-gnome-hi
+ * language-pack-kde-hi
+ * libreoffice-l10n-hi
+ * language-pack-hi
+ * language-pack-gnome-es
+ * language-pack-kde-es
+ * libreoffice-l10n-es
+ * language-pack-es
+ * language-pack-gnome-fr
+ * language-pack-kde-fr
+ * libreoffice-l10n-fr
+ * language-pack-fr
+ * language-pack-gnome-ar
+ * language-pack-kde-ar
+ * libreoffice-l10n-ar
+ * language-pack-ar
+ * libreoffice-l10n-en-gb

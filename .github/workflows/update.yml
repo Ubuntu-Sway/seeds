@@ -3,7 +3,7 @@ name: Update Metapackages
 on:
   push:
     branches:
-      - oracular
+      - plucky
 
 jobs:
   build:
@@ -28,12 +28,12 @@ jobs:
         repository: Ubuntu-Sway/ubuntu-sway-meta
         path: ubuntu-sway-meta
         token: "${{ secrets.GIT_USER_TOKEN }}"
-        ref: oracular
+        ref: plucky
 
     - name: Update metapackages
       shell: bash
       env:
-        BRANCH: oracular
+        BRANCH: plucky
       run: |
         cd ubuntu-sway-meta
         ./update
