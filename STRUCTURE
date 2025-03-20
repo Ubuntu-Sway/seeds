@@ -1,5 +1,5 @@
 include platform.oracular
-desktop: desktop-minimal desktop-common
+desktop: desktop-common
 desktop-raspi: desktop raspi-common
 live: desktop live-common
 ship-live: boot live
