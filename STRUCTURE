@@ -1,4 +1,4 @@
-include platform.oracular
+include platform.plucky
 desktop: desktop-common
 desktop-raspi: desktop raspi-common
 live: desktop live-common
