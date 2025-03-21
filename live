@@ -28,5 +28,12 @@ Task-Seeds: live-common
  
 == Misc ==
 
+ * gparted
+ * expect
  * cifs-utils               # Needed by casper for CIFS root
  * cryptsetup               # For LUKS/encryption support in Calamares
+ * xfsprogs
+ * casper
+ * discover
+ * os-prober
+ * laptop-detect
