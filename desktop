@@ -154,6 +154,7 @@ Task-Seeds: desktop-common
  * (foot)
  * (fuzzel)
  * grimshot
+ * gtklock
  * mate-polkit-bin
  * mako-notifier
  * nwg-bar
@@ -168,7 +169,6 @@ Task-Seeds: desktop-common
  * sway
  * swappy
  * swaybg
- * swaylock
  * swayidle
  * swayr
  * sway-systemd
@@ -178,6 +178,8 @@ Task-Seeds: desktop-common
  * waybar
  * wl-clipboard
  * wlsunset
+ * wl-mirror
+ * wtype
  * xdg-desktop-portal-gtk
  * xdg-desktop-portal-wlr
  * (xwayland)
