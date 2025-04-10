@@ -53,10 +53,10 @@ Task-Seeds: desktop-common
 
 == Internet ==
 
-* (firefox)
-* (qutebrowser)
-* (thunderbird)
-* (transmission-gtk)
+ * (firefox)
+ * (qutebrowser)
+ * (thunderbird)
+ * (transmission-gtk)
  
 == Fonts ==
 
@@ -152,7 +152,6 @@ Task-Seeds: desktop-common
  * calcurse
  * cliphist
  * (foot)
- * (fuzzel)
  * grimshot
  * gtklock
  * mate-polkit-bin
@@ -179,6 +178,7 @@ Task-Seeds: desktop-common
  * wl-clipboard
  * wlsunset
  * wl-mirror
+ * (wofi)
  * wtype
  * xdg-desktop-portal-gtk
  * xdg-desktop-portal-wlr
