@@ -76,7 +76,7 @@ Task-Seeds: desktop-common
  * (fastfetch)
  * (gamemode) [amd64]
  * (gnome-firmware)
- * (tlp) [amd64]
+ * (power-profiles-daemon) [amd64]
  * (thermald) [amd64]
  * (inxi)
  * (htop)
