@@ -137,7 +137,6 @@ Task-Seeds: desktop-common
  * libglib2.0-bin
  * plymouth-theme-ubuntu-sway-logo
  * plymouth-theme-ubuntu-sway-text
- * qt5ct
  * qt6ct
  * ubuntu-sway-artwork
  * ubuntu-sway-grub-theme
@@ -168,6 +167,7 @@ Task-Seeds: desktop-common
  * swappy
  * swaybg
  * swayidle
+ * swaykbdd
  * swayr
  * sway-systemd
  * sway-input-config
