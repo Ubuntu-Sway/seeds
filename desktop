@@ -32,6 +32,7 @@ Task-Seeds: desktop-common
  * (avahi-autoipd)     # IPv4 link-local interface configuration support
  * curl
  * (desktop-file-utils) #appimage integration + other uses
+ * (dracut)
  * gvfs-fuse
  * gvfs-backends
  * (go-mtpfs)
