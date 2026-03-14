@@ -138,7 +138,7 @@ Task-Seeds: desktop-common
  * libglib2.0-bin
  * plymouth-theme-ubuntu-sway-logo
  * plymouth-theme-ubuntu-sway-text
- * qt6ct
+ * (qt6ct)
  * ubuntu-sway-artwork
  * ubuntu-sway-grub-theme
  * xsettingsd
@@ -148,19 +148,19 @@ Task-Seeds: desktop-common
  * autotiling
  * (azote)
  * brightnessctl
- * calcurse
+ * (calcurse)
  * cliphist
  * (foot)
- * grimshot
- * gtklock
+ * (grimshot)
+ * (gtklock)
  * mate-polkit-bin
- * mako-notifier
- * nwg-bar
- * nwg-clipman
- * nwg-displays
- * nwg-drawer
- * nwg-look
- * nwg-wrapper
+ * (mako-notifier)
+ * (nwg-bar)
+ * (nwg-clipman)
+ * (nwg-displays)
+ * (nwg-drawer)
+ * (nwg-look)
+ * (nwg-wrapper)
  * poweralertd [amd64]
  * python3-requests
  * slurp
@@ -171,10 +171,10 @@ Task-Seeds: desktop-common
  * swaykbdd
  * swayr
  * sway-systemd
- * sway-input-config
+ * (sway-input-config)
  * (ubuntu-sway-default-settings) [amd64]
  * (ubuntu-sway-welcome) [amd64]
- * waybar
+ * (waybar)
  * wl-clipboard
  * wlsunset
  * wl-mirror
