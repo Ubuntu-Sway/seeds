@@ -1,4 +1,4 @@
-include platform.plucky
+include platform.resolute
 desktop: desktop-common
 desktop-raspi: desktop raspi-common
 live: desktop live-common
