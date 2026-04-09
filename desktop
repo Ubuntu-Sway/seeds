@@ -8,19 +8,19 @@ Task-Seeds: desktop-common
 == Apps ==
 
  * (bluetuith)
- * (engrampa)
  * (gnome-software)
- * (lximage-qt)
  * (mate-calc)
  * (neovim)
- * (pcmanfm)
  * (pluma)
  * (ranger)
+ * (ristretto)
  * (simple-scan)
  * (software-properties-gtk)
+ * (thunar)
  * (imv)
  * (update-notifier)
  * (usb-creator-gtk)
+ * (xarchiver)
  * (zathura)
  * (zathura-cb)
  * (zathura-djvu)
@@ -89,7 +89,6 @@ Task-Seeds: desktop-common
  
 == Multimedia ==
 
- * (audacious)
  * bluez-obexd
  * gstreamer1.0-alsa
  * gstreamer1.0-pipewire
@@ -129,7 +128,6 @@ Task-Seeds: desktop-common
  
 == Qt5/Qt6 Wayland support
 
- * qtwayland5
  * qt6-wayland
  
 == Theming ==
@@ -152,7 +150,6 @@ Task-Seeds: desktop-common
  * (foot)
  * (grimshot)
  * (gtklock)
- * mate-polkit-bin
  * (mako-notifier)
  * (nwg-bar)
  * (nwg-clipman)
@@ -160,25 +157,26 @@ Task-Seeds: desktop-common
  * (nwg-drawer)
  * (nwg-look)
  * (nwg-wrapper)
- * poweralertd [amd64]
+ * poweralertd
  * python3-requests
- * slurp
+ * (slurp)
  * sway
- * swappy
+ * (swappy)
  * swaybg
  * swayidle
  * swaykbdd
- * swayr
+ * (swayr)
  * sway-systemd
  * (sway-input-config)
  * (ubuntu-sway-default-settings)
  * (ubuntu-sway-welcome) [amd64]
  * (waybar)
  * wl-clipboard
- * wlsunset
+ * (wlsunset)
  * wl-mirror
  * (wofi)
- * wtype
+ * (wtype)
+ * xfce-polkit
  * xdg-desktop-portal-gtk
  * xdg-desktop-portal-wlr
  * (xwayland)
