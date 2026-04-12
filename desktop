@@ -165,6 +165,7 @@ Task-Seeds: desktop-common
  * swaybg
  * swayidle
  * swaykbdd
+ * swayosd
  * (swayr)
  * sway-systemd
  * (sway-input-config)
