@@ -8,7 +8,6 @@ gnome-software-plugin-snap
 imagemagick*
 language-selector-gnome
 mutter
-snapd
 synaptic
 systemsettings
 tilix

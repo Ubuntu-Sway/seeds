@@ -1,0 +1,243 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Ubuntu Sway Minimal Desktop
+Task-Extended-Description: This task provides the Ubuntu Sway (Ubuntu with Sway environment).
+Task-Seeds: standard
+Task-Key: ubuntu-sway-desktop-minimal
+Task-Name: ubuntu-sway-desktop-minimal
+Task-Metapackage: ubuntu-sway-desktop-minimal
+
+== Metapackage ==
+
+ * ubuntu-sway-desktop-minimal          # metapackage for everything here
+
+= Ubuntu Sway core packages =
+
+ * (dracut)
+ * (ubuntu-sway-default-settings)
+ * (ubuntu-sway-artwork)
+ * (plymouth-theme-ubuntu-sway-logo)
+ * (plymouth-theme-ubuntu-sway-text)
+ * (ubuntu-sway-grub-theme)
+ * !snapd                           # No snapd by default in minimal
+
+= Display manager =
+
+ * greetd
+ * tuigreet
+
+= Sway =
+
+ * autotiling
+ * (azote)
+ * (calcurse)
+ * cliphist
+ * (foot)
+ * (imv)
+ * (mako-notifier)
+ * (nwg-bar)
+ * (nwg-clipman)
+ * (nwg-displays)
+ * (nwg-drawer)
+ * (nwg-look)
+ * (nwg-wrapper)
+ * sway
+ * swaybg
+ * swaykbdd
+ * swayosd
+ * (sway-input-config)
+ * (swayr)
+ * sway-systemd
+ * python3-requests
+ * (thunar)
+ * (ubuntu-sway-welcome) [amd64]
+ * (waybar)
+ * wf-recorder
+ * wl-clipboard
+ * (wlsunset)
+ * wl-mirror
+ * (wofi)
+ * (wtype)
+ * xfce-polkit
+ * xdg-desktop-portal-gtk
+ * xdg-desktop-portal-wlr
+ * xsettingsd
+ * (xwayland)
+
+== Accessories ==
+
+ * curl
+ * (grimshot)
+ * (neovim)
+ * (slurp)
+ * (swappy)
+ * (xarchiver)
+
+== Desktopish tools which we do need ==
+
+ * gvfs-fuse
+ * gvfs-backends
+ * swayidle
+ * (gtklock)
+
+== Low level system plumbery ==
+
+ * (apt-xapian-index)
+ * (software-properties-gtk)
+ * network-manager
+ * (bluetuith)
+ * spice-vdagent
+ * (udisks2)
+ * (upower)
+
+== Theming ==
+
+ * libglib2.0-bin
+ * qt6-wayland
+ * (qt6ct)
+
+== Multimedia ==
+
+ * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
+ * ffmpegthumbnailer                # For videos thumbnails
+
+== Desktopish tools which we do need ==
+
+ * desktop-file-utils               # map MIME types to apps
+ * xdg-user-dirs                    # to add the Desktop directory
+ * gvfs-fuse                        # for access of non gio applications to gvfs mounts
+ * (gvfs-backends)                  # for adding support for backends (photos, network etc ...) to gvfs
+ * (kdialog)                        # needed for the OEM session's "Finish OEM preparation" shortcut to work
+
+== desktop-common dependencies that are nice to have ==
+
+ * fonts-font-awesome
+ * fonts-font-awesome-6
+ * fonts-hack
+ * (fonts-opensymbol)
+ * (fonts-kacst-one)
+ * (fonts-khmeros-core)
+ * (fonts-thai-tlwg)
+ * (fonts-lao)
+ * (fonts-ubuntu)
+ * (fonts-sil-padauk)
+ * (fonts-tibetan-machine)
+ * (fonts-sil-abyssinica)
+ * (fonts-lklug-sinhala)
+ * (fonts-indic)
+ * (fonts-liberation)
+ * (fonts-noto-cjk)
+ * (fonts-dejavu-core)
+ * (fonts-noto-core)
+ * language-selector-common
+ * fontconfig
+ * avahi-daemon
+ * bluez
+ * bluez-cups
+ * bluez-obexd
+ * memtest86+ [amd64]
+
+== Archive support ==
+
+# Add more type of archive support
+ * (xz-utils)
+ * (zip)
+ * (unzip)                          # also used for .zip support in file-roller
+
+== Printing ==
+
+ * (cups)                           # our preferred printer management infrastructure
+ * (cups-bsd)                       # gives us lpc, lpq, lpr, lprm
+ * (cups-client)                    # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * (foomatic-db-compressed-ppds)    # the foomatic printer driver database
+ * (cups-filters)
+ * (openprinting-ppds)              # Most common drivers we want in desktop; less common are in o-p-extra
+ * (printer-driver-pnm2ppa)         # several ppds require this
+ * (ghostscript-x)
+ * (hplip)                          # support for HP all-in-one printers
+ * (printer-driver-min12xxw)        # support for KonicaMinolta PagePro 1200W, 1300W printers
+ * (printer-driver-foo2zjs)         # support for printing to ZjStream-based printers
+ * (printer-driver-splix)           # support for Samsung lasers
+ * (printer-driver-pxljr)           # support for HP Color lasers
+ * (printer-driver-c2esp)           # support for Kodak injket printers
+ * (printer-driver-ptouch)          # support for Brother P-touch printers
+ * (printer-driver-sag-gdi)         # support for Rico Aficio SPxxxx printers
+ * (printer-driver-brlaser)         # support for some Brother laser printers
+ * (printer-driver-gutenprint)      # Previously cups-driver-gutenprint
+ * (printer-driver-m2300w)          # support for the Minolta magicolor 2300W/24000W color laser printers
+ * (system-config-printer)
+
+== Sound ==
+
+ * (pavucontrol)
+ * pipewire
+ * pipewire-audio                   # Get pipewire-alsa and pipewire-pulse without causing Pulseaudio-related upgrade problems
+ * playerctl
+ * pulsemixer
+ * pulseaudio-utils
+ * (wireplumber)
+ * libspa-0.2-bluetooth
+ * gstreamer1.0-pipewire
+
+== Terminal tools (from desktop-common) ==
+
+ * (bc)
+ * (genisoimage)
+
+== Networking ==
+
+ * wvdial
+ * modemmanager                     # Add support for mobile modem LP: #967132
+ * mobile-broadband-provider-info   # LP: #975139
+ * usb-modeswitch                   # LP: #979304
+ * iw                               # LP: #2075850
+ * rfkill                           # No longer using the copy from wireless-tools (LP: #715309)
+ * wpasupplicant                    # ScottJamesRemnant
+ * libnss-mdns                      # IPv4 link-local DNS support
+ * ca-certificates                  # common SSL certificates
+ * avahi-daemon
+
+== Low level system plumbery ==
+
+ * acpi
+ * brightnessctl
+ * inotify-tools
+ * gron
+ * (systemd-oomd)
+ * (gamemode) [amd64]
+ * (power-profiles-daemon) [amd64]
+ * (thermald) [amd64]
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (go-mtpfs)
+ * (libfuse2) # required for appimages
+ * (plocate)
+ * (ppa-purge)
+ * (xdg-utils)         # useful utilities
+ * laptop-detect
+ * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
+ * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
+ * libpam-systemd                   # logind, cross desktop compatibility
+ * (x11-utils)
+ * whoopsie                         # LP: 1001630
+ * python3-launchpadlib             # for apport
+ * kerneloops-daemon                # watch for and allow reporting of kernel problems
+
+ * fonts-noto-cjk                   # Extra font to display asian characters LP: #1437875 and LP: #1581160
+
+ * pcmciautils                      # PCMCIA support for >= 2.6.13-rc1 kernels
+ * poweralertd
+ * inputattach                      # needed for serial mice
+ * libsasl2-modules                 # allows integration with MTA and login system
+
+ * fwupd
+ * fwupd-signed
+
+ * xkb-data
+
+ * anacron                          # generally appropriate for desktops
+
+ * (cryptsetup)                     # needed for managing encrypted drives, systemd-cryptsetup isn't a total replacement
+ * (btrfs-progs)                    # btrfs is one of the filesystems we explicitly support
+ * (xfsprogs)                       # xfs is one of the filesystems we explicitly support
+
+ * util-linux-extra                 # Calamares dependency needed for OEM installations to work, adding this to ship-live silently fails

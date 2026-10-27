@@ -3,114 +3,55 @@ Task-Section: user
 Task-Description: Ubuntu Sway desktop
 Task-Extended-Description: This task provides the Ubuntu Sway environment.
 Task-Key: ubuntu-sway-desktop
-Task-Seeds: desktop-common
+Task-Name: ubuntu-sway-desktop
+Task-Seeds: desktop-minimal desktop-common
 
 == Apps ==
 
- * (bluetuith)
  * (gnome-software)
  * (mate-calc)
- * (neovim)
  * (pluma)
  * (ranger)
  * (ristretto)
  * (simple-scan)
- * (software-properties-gtk)
- * (thunar)
- * (imv)
  * (update-notifier)
  * (usb-creator-gtk)
- * (xarchiver)
  * (zathura)
  * (zathura-cb)
  * (zathura-djvu)
  * (zathura-pdf-poppler)
- 
-== Common components ==
 
- * (apt-xapian-index)
- * (avahi-autoipd)     # IPv4 link-local interface configuration support
- * curl
- * (desktop-file-utils) #appimage integration + other uses
- * (dracut)
- * gvfs-fuse
- * gvfs-backends
- * (go-mtpfs)
- * gron
- * inotify-tools
- * kerneloops-daemon
- * (libfuse2) # required for appimages
- * (plocate)
- * (ppa-purge)
- * (udisks2)
- * (upower)
- * xdg-user-dirs
- * (xdg-utils)         # useful utilities
- 
-== Display manager ==
+  == Snaps ==
 
- * (greetd)
- * (tuigreet)
+ * (firefox)                        # needed to ensure www-browser is satisfied LP: #2060898
+ * (snapd)
+ * (packagekit)
+ * snap:firefox
+ * snap:gtk-common-themes # needed for firefox
+ * snap:gnome-46-2404 # needed for firefox
+ * snap:mesa-2404 # needed for firefox
 
 == Internet ==
 
- * (firefox)
- * (qutebrowser)
  * (transmission-gtk)
- 
-== Fonts ==
-
- * (fonts-arphic-ukai)
- * (fonts-arphic-uming)
- * (fonts-liberation2)
- * (fonts-noto-color-emoji)
- * (fonts-opensymbol)
- * fonts-font-awesome
- * fonts-font-awesome-6
- * fonts-hack
  
 == Hardware ==
 
- * acpi
  * (drm-info)
  * (fastfetch)
- * (gamemode) [amd64]
  * (gnome-firmware)
- * (power-profiles-daemon) [amd64]
- * (thermald) [amd64]
  * (inxi)
  * (htop)
  * (mesa-utils)
  * (mesa-utils-extra)
- * (systemd-oomd)
  * (vulkan-tools)
  * (wayland-utils)
  * (wev)
  
 == Multimedia ==
 
- * bluez-obexd
- * gstreamer1.0-alsa
- * gstreamer1.0-pipewire
- * gstreamer1.0-plugins-base
- * gstreamer1.0-plugins-base-apps
- * gstreamer1.0-plugins-good
  * (mpv)
  * (musikcube)
- * (pavucontrol)
- * pipewire-audio
- * playerctl
- * pulsemixer
- * pulseaudio-utils
- * wf-recorder
- 
-== Network ==
-
- * mobile-broadband-provider-info
- * modemmanager
- * network-manager
- * usb-modeswitch
- * wvdial
  
 == Office ==
 
@@ -120,67 +61,6 @@ Task-Seeds: desktop-common
  * (libreoffice-gtk3)
  * (libreoffice-style-yaru)
  * !libreoffice-gnome
- 
-== Printing ==
-
- * printer-driver-gutenprint
- * (system-config-printer)
- 
-== Qt5/Qt6 Wayland support
-
- * qt6-wayland
- 
-== Theming ==
-
- * libglib2.0-bin
- * plymouth-theme-ubuntu-sway-logo
- * plymouth-theme-ubuntu-sway-text
- * (qt6ct)
- * ubuntu-sway-artwork
- * ubuntu-sway-grub-theme
- * xsettingsd
-
-== Ubuntu Sway Packages ==
-
- * autotiling
- * (azote)
- * brightnessctl
- * (calcurse)
- * cliphist
- * (foot)
- * (grimshot)
- * (gtklock)
- * (mako-notifier)
- * (nwg-bar)
- * (nwg-clipman)
- * (nwg-displays)
- * (nwg-drawer)
- * (nwg-look)
- * (nwg-wrapper)
- * poweralertd
- * python3-requests
- * (slurp)
- * sway
- * (swappy)
- * swaybg
- * swayidle
- * swaykbdd
- * swayosd
- * (swayr)
- * sway-systemd
- * (sway-input-config)
- * (ubuntu-sway-default-settings)
- * (ubuntu-sway-welcome) [amd64]
- * (waybar)
- * wl-clipboard
- * (wlsunset)
- * wl-mirror
- * (wofi)
- * (wtype)
- * xfce-polkit
- * xdg-desktop-portal-gtk
- * xdg-desktop-portal-wlr
- * (xwayland)
  
 == Other ==
 

@@ -1,7 +1,8 @@
-include platform.resolute
-desktop: desktop-common
+include platform.tenacious
+desktop: desktop-minimal desktop-common
+desktop-minimal: standard
 desktop-raspi: desktop raspi-common
 live: desktop live-common
-ship-live: boot live
+ship-live: boot desktop
 # make sure supported remains the last entry
 supported: desktop ship-live supported-common
